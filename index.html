@@ -33,6 +33,7 @@
   <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
   <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
   <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+  <script async custom-element="amp-recaptcha-input" src="https://cdn.ampproject.org/v0/amp-recaptcha-input-0.1.js"></script>
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   
   
@@ -450,7 +451,7 @@
         </div>
         <div class="form-block mbr-col-lg-8 mbr-m-auto" data-form-type="formoid">
 <!--Formbuilder Form-->
-<form method="post" class="mbr-form" action-xhr="https://formoid.net/api/amp-form/push" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="j6PHfnLcuCFUI8iVjDtMx3pbVGcMoxf59eYW34gbmHM81bwlOzhO88XFDFVErG/Lg9my14jh4940s9KLZpIZo8cjJRRh1zusSgVLONUWwduI+PUz/Nqt8HcItgQoIxkQ.ECxB5HnqNPlleBYNMbJWmwgu5FvGpUByYjMyfhsEgLdKy+2s60T8rvBmcaN9l/r0UfyKTZLNG2SWJRBANTN6NgEXLL8cNniLMKGXVbwBX+vJ6NJHFNK9q1cwC0v4u+9e.A/qfP1AT5XVr5br6VFmWKACj3A9VW7NmubxLL1Sv0BRlaHEhY7elyNoMcvXiSnur782dbDEjrgpS9QEEGVphiSC+UT3Bkvdm5Mhv5oZyKD+8hV++3Q8C8Ehf+fMFkjya">
+<form method="post" class="mbr-form" action-xhr="https://formoid.net/api/amp-form/push" data-form-title="Mobirise Form"><amp-recaptcha-input layout="nodisplay" name="recaptcha_token" data-sitekey="6Lf8v8gUAAAAAEbZO6qRzl8G4QbuqHEYSiOwCmqY" data-action="recaptcha_example"></amp-recaptcha-input><input type="hidden" name="email" data-form-email="true" value="HHhMF0Heorb7FD8zztrhDHS9vYhxy8TzOOyzsUDntnO+zbb9YytJAsaZNGSnKU/ZjJ+rXGIPlFzuE9BhHFju+u11wTINyFquxdmGHtMf94an86SXvHxVpN2FT/uE9C4G.TUxGfrIA4q4msQAUNLivylUsE+n6Xl2pe5k1yHM9o4C0xDRiSC+QFGPXvNhvMJ+iEie36e59ICNnpYGlO2eq5JKsN0PMOONLTHm/0p8/gmKqWXS2OO4jx48YTKF7HNXN.RpkRhptwWNQy+F5KDM9sf2xuqxFFHLi95jhArZ5RyJSIzDcY6+P6YBHLfblumpUb9r3wzmsWxykpSWc5plt3lP2GF4PQGVyERZU3izwqKOyHIXjPvVMbCYJpuFd0AOUT">
 <div>
 <div submit-success="" class="mbr-col-lg-12 mbr-col-md-12 mbr-col-sm-12">
 <template data-form-alert="" type="amp-mustache">Bericht is verstuurd. Ik neem zo snel mogelijk contact met je op.</template>
@@ -476,10 +477,10 @@
 <input type="hidden" name="form[data][3][0]" value="Message" id="form[data][3][0]-contacts5-2c" data-form-field="">
 <textarea name="form[data][3][1]" placeholder="Bericht" data-form-field="Message" class="field-input display-7" id="form[data][3][1]-contacts5-2c"></textarea>
 </div>
-<div class="mbr-col-lg-12 mbr-section-btn align-center field"><button type="submit" class="btn btn-md btn-primary-outline btn-form display-7"><span class="mbri-letter mbr-iconfont mbr-iconfont-btn"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32" fill="currentColor">
+<div class="mbr-col-lg-12 mbr-section-btn align-center field"><button type="submit" class="btn btn-md btn-primary-outline btn-form display-7"><span class="mbri-paper-plane mbr-iconfont mbr-iconfont-btn"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32" fill="currentColor">
 
-<path d="M3.333 8c-0.667 0-0.911 0.861-0.371 1.221l10.663 7.329c0.653 0.449 1.442 0.783 2.374 0.783s1.727-0.335 2.38-0.783l10.663-7.329c0.736-0.498-0.082-1.568-0.755-1.098l-10.663 7.329c-0.505 0.347-0.999 0.548-1.625 0.548s-1.114-0.201-1.619-0.548l-10.663-7.329c-0.11-0.078-0.25-0.12-0.384-0.122zM2 5.333c-1.096 0-2 0.904-2 2v17.333c0 1.096 0.904 2 2 2h28c1.096 0 2-0.904 2-2v-17.333c0-1.096-0.904-2-2-2zM2 6.667h28c0.381 0 0.667 0.286 0.667 0.667v17.333c0 0.381-0.286 0.667-0.667 0.667h-28c-0.381 0-0.667-0.286-0.667-0.667v-17.333c0-0.381 0.286-0.667 0.667-0.667z"></path>
-</svg></span>Verstuur</button></div>
+<path d="M31.333 0c-0.17 0.011-0.321 0.083-0.432 0.195l-18.31 18.311-10.336-5.74 25.365-10.146c0.248-0.101 0.42-0.34 0.42-0.62 0-0.369-0.299-0.667-0.667-0.667-0.089 0-0.174 0.017-0.252 0.049l-26.662 10.665c-0.248 0.101-0.42 0.34-0.42 0.619 0 0.25 0.138 0.468 0.341 0.582l12.003 6.669c0.093 0.052 0.204 0.083 0.323 0.083 0.184 0 0.351-0.075 0.471-0.195l16.414-16.415-10.292 26.306-4.664-9.326c-0.107-0.234-0.339-0.395-0.609-0.395-0.368 0-0.667 0.299-0.667 0.667 0 0.118 0.031 0.229 0.084 0.325l5.332 10.664c0.112 0.22 0.337 0.368 0.596 0.368 0.28 0 0.52-0.173 0.619-0.418l12.002-30.672c0.029-0.072 0.046-0.156 0.046-0.243 0-0.368-0.299-0.667-0.667-0.667-0.013 0-0.027 0-0.040 0.001z"></path>
+</svg></span>&nbsp;Verstuur</button></div>
 </div>
 </form><!--Formbuilder Form-->
 </div>
